@@ -5,3 +5,183 @@ java.lang.RuntimeException: main function not found in 'client.bal'
 	at java.util.Optional.ifPresent(Optional.java:159)
 	at org.ballerinalang.launcher.Main.main(Main.java:66)
  
+[2018-07-10 16:08:20,210] ERROR {org.ballerinalang.launcher.Main} - Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina_1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip 
+java.lang.IllegalArgumentException: Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina_1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip
+	at java.net.URI.create(URI.java:852)
+	at org.wso2.ballerinalang.compiler.FileSystemProjectDirectory.saveCompiledPackage(FileSystemProjectDirectory.java:165)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeLibraryPackage(BinaryFileWriter.java:153)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeLibraryPackage(BinaryFileWriter.java:125)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.write(BinaryFileWriter.java:89)
+	at org.wso2.ballerinalang.compiler.Compiler.build(Compiler.java:96)
+	at org.ballerinalang.packerina.BuilderUtils.compileAndWrite(BuilderUtils.java:54)
+	at org.ballerinalang.packerina.cmd.BuildCommand.execute(BuildCommand.java:94)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.ballerinalang.launcher.Main.main(Main.java:66)
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina_1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parse(URI.java:3058)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 9 more
+ 
+[2018-07-10 16:09:01,087] ERROR {org.ballerinalang.launcher.Main} - Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina_1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip 
+java.lang.IllegalArgumentException: Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina_1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip
+	at java.net.URI.create(URI.java:852)
+	at org.wso2.ballerinalang.compiler.FileSystemProjectDirectory.saveCompiledPackage(FileSystemProjectDirectory.java:165)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeLibraryPackage(BinaryFileWriter.java:153)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeLibraryPackage(BinaryFileWriter.java:125)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.write(BinaryFileWriter.java:89)
+	at org.wso2.ballerinalang.compiler.Compiler.build(Compiler.java:96)
+	at org.ballerinalang.packerina.BuilderUtils.compileAndWrite(BuilderUtils.java:54)
+	at org.ballerinalang.packerina.cmd.BuildCommand.execute(BuildCommand.java:94)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.ballerinalang.launcher.Main.main(Main.java:66)
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina_1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parse(URI.java:3058)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 9 more
+ 
+[2018-07-10 16:11:30,702] ERROR {org.ballerinalang.launcher.Main} - Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina_1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip 
+java.lang.IllegalArgumentException: Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina_1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip
+	at java.net.URI.create(URI.java:852)
+	at org.wso2.ballerinalang.compiler.FileSystemProjectDirectory.saveCompiledPackage(FileSystemProjectDirectory.java:165)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeLibraryPackage(BinaryFileWriter.java:153)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeLibraryPackage(BinaryFileWriter.java:125)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.write(BinaryFileWriter.java:89)
+	at org.wso2.ballerinalang.compiler.Compiler.build(Compiler.java:96)
+	at org.ballerinalang.packerina.BuilderUtils.compileAndWrite(BuilderUtils.java:54)
+	at org.ballerinalang.packerina.cmd.BuildCommand.execute(BuildCommand.java:94)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.ballerinalang.launcher.Main.main(Main.java:66)
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina_1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parse(URI.java:3058)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 9 more
+ 
+[2018-07-10 16:15:01,662] ERROR {org.ballerinalang.launcher.Main} - Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina_1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip 
+java.lang.IllegalArgumentException: Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina_1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip
+	at java.net.URI.create(URI.java:852)
+	at org.wso2.ballerinalang.compiler.FileSystemProjectDirectory.saveCompiledPackage(FileSystemProjectDirectory.java:165)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeLibraryPackage(BinaryFileWriter.java:153)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeLibraryPackage(BinaryFileWriter.java:125)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.write(BinaryFileWriter.java:89)
+	at org.wso2.ballerinalang.compiler.Compiler.build(Compiler.java:96)
+	at org.ballerinalang.packerina.BuilderUtils.compileAndWrite(BuilderUtils.java:54)
+	at org.ballerinalang.packerina.cmd.BuildCommand.execute(BuildCommand.java:94)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.ballerinalang.launcher.Main.main(Main.java:66)
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina_1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parse(URI.java:3058)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 9 more
+ 
+[2018-07-10 16:16:07,383] ERROR {org.ballerinalang.launcher.Main} - Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina_1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip 
+java.lang.IllegalArgumentException: Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina_1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip
+	at java.net.URI.create(URI.java:852)
+	at org.wso2.ballerinalang.compiler.FileSystemProjectDirectory.saveCompiledPackage(FileSystemProjectDirectory.java:165)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeLibraryPackage(BinaryFileWriter.java:153)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeLibraryPackage(BinaryFileWriter.java:125)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.write(BinaryFileWriter.java:89)
+	at org.wso2.ballerinalang.compiler.Compiler.build(Compiler.java:96)
+	at org.ballerinalang.packerina.BuilderUtils.compileAndWrite(BuilderUtils.java:54)
+	at org.ballerinalang.packerina.cmd.BuildCommand.execute(BuildCommand.java:94)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.ballerinalang.launcher.Main.main(Main.java:66)
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina_1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parse(URI.java:3058)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 9 more
+ 
+[2018-07-10 16:19:53,105] ERROR {org.ballerinalang.launcher.Main} - Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina_1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip 
+java.lang.IllegalArgumentException: Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina_1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip
+	at java.net.URI.create(URI.java:852)
+	at org.wso2.ballerinalang.compiler.FileSystemProjectDirectory.saveCompiledPackage(FileSystemProjectDirectory.java:165)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeLibraryPackage(BinaryFileWriter.java:153)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeLibraryPackage(BinaryFileWriter.java:125)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.write(BinaryFileWriter.java:89)
+	at org.wso2.ballerinalang.compiler.Compiler.build(Compiler.java:96)
+	at org.ballerinalang.packerina.BuilderUtils.compileAndWrite(BuilderUtils.java:54)
+	at org.ballerinalang.packerina.cmd.BuildCommand.execute(BuildCommand.java:94)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.ballerinalang.launcher.Main.main(Main.java:66)
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina_1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parse(URI.java:3058)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 9 more
+ 
+[2018-07-10 16:24:58,785] ERROR {org.ballerinalang.launcher.Main} - Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina_1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip 
+java.lang.IllegalArgumentException: Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina_1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip
+	at java.net.URI.create(URI.java:852)
+	at org.wso2.ballerinalang.compiler.FileSystemProjectDirectory.saveCompiledPackage(FileSystemProjectDirectory.java:165)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeLibraryPackage(BinaryFileWriter.java:153)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeLibraryPackage(BinaryFileWriter.java:125)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.write(BinaryFileWriter.java:89)
+	at org.wso2.ballerinalang.compiler.Compiler.build(Compiler.java:96)
+	at org.ballerinalang.packerina.BuilderUtils.compileAndWrite(BuilderUtils.java:54)
+	at org.ballerinalang.packerina.cmd.BuildCommand.execute(BuildCommand.java:94)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.ballerinalang.launcher.Main.main(Main.java:66)
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina_1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parse(URI.java:3058)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 9 more
+ 
+[2018-07-10 16:26:56,142] ERROR {org.ballerinalang.launcher.Main} - Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina_1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip 
+java.lang.IllegalArgumentException: Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina_1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip
+	at java.net.URI.create(URI.java:852)
+	at org.wso2.ballerinalang.compiler.FileSystemProjectDirectory.saveCompiledPackage(FileSystemProjectDirectory.java:165)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeLibraryPackage(BinaryFileWriter.java:153)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeLibraryPackage(BinaryFileWriter.java:125)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.write(BinaryFileWriter.java:89)
+	at org.wso2.ballerinalang.compiler.Compiler.build(Compiler.java:96)
+	at org.ballerinalang.packerina.BuilderUtils.compileAndWrite(BuilderUtils.java:54)
+	at org.ballerinalang.packerina.cmd.BuildCommand.execute(BuildCommand.java:94)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.ballerinalang.launcher.Main.main(Main.java:66)
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina_1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parse(URI.java:3058)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 9 more
+ 
+[2018-07-10 16:28:32,876] ERROR {org.ballerinalang.launcher.Main} - Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip 
+java.lang.IllegalArgumentException: Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip
+	at java.net.URI.create(URI.java:852)
+	at org.wso2.ballerinalang.compiler.FileSystemProjectDirectory.saveCompiledPackage(FileSystemProjectDirectory.java:165)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeLibraryPackage(BinaryFileWriter.java:153)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeLibraryPackage(BinaryFileWriter.java:125)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.write(BinaryFileWriter.java:89)
+	at org.wso2.ballerinalang.compiler.Compiler.build(Compiler.java:96)
+	at org.ballerinalang.packerina.BuilderUtils.compileAndWrite(BuilderUtils.java:54)
+	at org.ballerinalang.packerina.cmd.BuildCommand.execute(BuildCommand.java:94)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.ballerinalang.launcher.Main.main(Main.java:66)
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 32: jar:file:/home/siva/Desktop/Semi 7/ballerina/balarina1/.ballerina/repo/sivaneban/calculator/0.1.0/calculator.zip
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parse(URI.java:3058)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 9 more
+ 
