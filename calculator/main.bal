@@ -33,7 +33,13 @@ function main(string... args) {
         } else if(c == 2) {
             io:print("Subtract result: ");
             io:println(subtract(a, b));
-        } else {
+        } else if(c==3){
+            io:print("Multiply result: ");
+            io:println(multiply(a, b));
+        }  else if(c==4){
+            io:print("Divide result: ");
+            io:println(divide(a, b));
+        }  else {
             io:println("Invalid choice");
         }   
     }
